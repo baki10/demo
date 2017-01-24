@@ -1,0 +1,11 @@
+ext {
+    springVersion = "4.3.5.RELEASE"
+}
+
+dependencies {
+    compile "org.springframework:spring-context:$springVersion"
+    compile "org.springframework:spring-orm:$springVersion"
+    compile 'org.hibernate:hibernate-core:5.2.6.Final'
+    compile 'postgresql:postgresql:9.1-901-1.jdbc4'
+    compile 'commons-dbcp:commons-dbcp:1.4'
+}
