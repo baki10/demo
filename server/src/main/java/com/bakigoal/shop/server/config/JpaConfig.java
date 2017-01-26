@@ -21,13 +21,13 @@ import java.util.Properties;
 @PropertySource("classpath:db.properties")
 public class JpaConfig {
 
-  @Value("${driverClassName}")
+  @Value("${jdbc.driverClassName}")
   private String driverClassName;
-  @Value("${url}")
+  @Value("${jdbc.url}")
   private String url;
-  @Value("${username}")
+  @Value("${jdbc.username}")
   private String username;
-  @Value("${password}")
+  @Value("${jdbc.password}")
   private String password;
 
   @Value("${hibernate.dialect}")
